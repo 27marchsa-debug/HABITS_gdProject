@@ -11,4 +11,4 @@
 | 사용할 소프트웨어 패키지의 명칭과 핵심 기능/용도 | 다중 피드백 학습 최적화 모델 Hugging Face Transformers(사전학습 NLP 모델, 감정부넉 파인튜닝)<br>상황 반응별 추천 필터링 Recombee (머신러닝 기반 추천 API)<br>하이브리드 개인화 콘텐츠 엔진 FastAPI(백엔드 서버, 개인화 로직/추천 모델 연동)<br>사용자 데이터 관리 및 분석 PostgreSQL(관계형 DB, 일정/습관 관리)<br>모바일 클라이언트 인터페이스 React Native(크로스 플랫폼 앱 개발)<br>상황별 알림 전송 엔진 Firebase Cloud Messagingg(푸시 알림 서비스) |
 | 사용할 소프트웨어 패키지의 명칭과 URL | Hugging Face Transformers: https://huggingface.co/transformers<br>Recombee: https://www.recombee.com/<br>FastAPI:https://fastapi.tiangolo.com/<br>PostgreSQL: https://www.postgresql.org/<br>React Native: https://reactnative.dev/<br>Firebase Cloud Messaging: https://firebase.google.com/products/cloud-messaging |
 | 팀 그라운드 룰 | https://github.com/27marchsa-debug/HABITS_gdProject/blob/main/GroundRule.md |
-| 최종 수정일 | 2025.9.15 |
+| 최종 수정일 | 2025.09.15 |
