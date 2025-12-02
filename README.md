@@ -4,7 +4,25 @@
 
 [![Stack](https://img.shields.io/badge/Tech-React%20Native-blue)]() [![Stack](https://img.shields.io/badge/Backend-FastAPI-green)]() [![Stack](https://img.shields.io/badge/AI-KoELECTRA%20%26%20LLM-orange)]() [![Status](https://img.shields.io/badge/Status-Architecture%20Designed-blueviolet)]()
 
-## 📖 Project Overview (프로젝트 개요)
+## 🔧 Installation & Run (실행 가이드)
+
+본 프로젝트는 별도의 환경 변수(.env) 설정 없이 바로 실행 가능하도록 구성되었습니다.
+
+### 1. Backend (Server)
+```bash
+cd backend
+pip install -r requirements.txt  # 라이브러리 설치
+uvicorn app.main:app --reload    # 서버 실행 (자동으로 SQLite DB 생성)
+```
+### 2. Frontend (App)
+```bash
+
+cd frontend
+npm install        # 라이브러리 설치 (node_modules 생성)
+npx react-native run-android # 또는 run-ios
+```
+
+## 📖 Project Overview
 
 **"무작정 따라 하는 습관이 아닌, '나'를 이해하고 성장시키는 습관 코칭"**
 
@@ -55,7 +73,7 @@ graph TD
 
 ---
 
-## 🧠 Core Logic Design (핵심 로직 설계)
+## 🧠 Core Logic Design
 
 ### 1. 4-Step Habit Coaching Pipeline
 사용자가 서비스를 이용하는 흐름에 따라 4단계 파이프라인이 작동합니다.
@@ -63,7 +81,7 @@ graph TD
 1.  **Diagnosis (진단):** 성격 테스트 결과와 이상향 태그(`#대담함`, `#도전`) 매핑
 2.  **Suggestion (제안):** `Cold Start` 알고리즘을 통한 초기 습관 추천
 3.  **Execution (실행):** 캘린더 뷰 기반의 이행 체크 및 타임테이블 연동
-4.  **Feedback (피드백):** 이행률 65% 미만 시 난이도 조절 제안 (Adaptive Feedback)
+4.  **Feedback (피드백):** 이행률 70% 미만 시 난이도 조절 제안 (Adaptive Feedback)
 
 ### 2. Context-Aware Recommendation Algorithm
 사용자의 스케줄(Context)에 따라 습관의 추천 가중치(Weight)를 재산정합니다.
