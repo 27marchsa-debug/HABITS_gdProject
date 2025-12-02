@@ -38,7 +38,6 @@ npx react-native run-android # 또는 run-ios
 - **Context-Aware:** 사용자의 라이프스타일(통근, 취침 시간 등)을 고려한 최적의 습관 시간대 추천
 - **Emotional Feedback:** KoELECTRA 기반 감정 분석을 통해 공감하고 격려하는 피드백 루프 제공
 
----
 
 ## 🏗 System Architecture
 
@@ -76,7 +75,6 @@ graph TD
 | **AI (Rec)** | **Recombee** | 아이템 기반 협업 필터링 및 하이브리드 추천 |
 | **Infra** | **Firebase (FCM)** | 푸시 알림 및 사용자 인증 |
 
----
 
 ## 🧠 Core Logic Design
 
@@ -108,7 +106,6 @@ def re_rank_habits(habits, context):
 - **Output Class:** `Sadness (0.89)`
 - **Action:** LLM을 호출하여 **"위로"** 및 **"습관 강도 하향"** 메시지 생성
 
----
 
 ## 📂 Project Structure (NOT FIXED)
 
