@@ -7,7 +7,7 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="HABITS API", description="AI Habit Coaching Backend")
 
-# 헬스 체크용 (서버 살아있는지 확인)
+# 헬스 체크용
 @app.get("/")
 def read_root():
     return {"message": "HABITS Server is Running! 🚀"}
