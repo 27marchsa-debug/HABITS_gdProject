@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+venv/
+.pytest_cache/
+
+# Node.js (React Native)
+node_modules/    <-- 충돌 원인 1순위; 절대 업로드 금지
+npm-debug.log
+yarn-error.log
+
+# Mac/Windows 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 앱 빌드 파일
+android/app/build/
+ios/Pods/
