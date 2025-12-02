@@ -4,7 +4,7 @@
 
 [![Stack](https://img.shields.io/badge/Tech-React%20Native-blue)]() [![Stack](https://img.shields.io/badge/Backend-FastAPI-green)]() [![Stack](https://img.shields.io/badge/AI-KoELECTRA%20%26%20LLM-orange)]() [![Status](https://img.shields.io/badge/Status-Architecture%20Designed-blueviolet)]()
 
-## 🔧 Installation & Run (실행 가이드)
+## 🔧 Installation & Run
 
 본 프로젝트는 별도의 환경 변수(.env) 설정 없이 바로 실행 가능하도록 구성되었습니다.
 
@@ -35,7 +35,7 @@ npx react-native run-android # 또는 run-ios
 
 ---
 
-## 🏗 System Architecture (시스템 아키텍처)
+## 🏗 System Architecture
 
 본 프로젝트는 **Microservice-oriented Architecture**를 지향하며, 각 모듈이 유기적으로 데이터를 주고받도록 설계되었습니다.
 
@@ -59,7 +59,7 @@ graph TD
     Recombee -->|Habit List| Client
 ```
 
-## 🛠 Tech Stack (기술 스택)
+## 🛠 Tech Stack
 
 | Category | Technology | Description |
 | :--- | :--- | :--- |
@@ -105,7 +105,7 @@ def re_rank_habits(habits, context):
 
 ---
 
-## 📂 Project Structure (폴더 구조 - 예상도)
+## 📂 Project Structure (NOT FIXED)
 
 ```bash
 HABITS
@@ -145,7 +145,7 @@ HABITS
     - [ ] LLM 프롬프트 엔지니어링 최적화
     - [ ] 베타 테스트 및 사용자 피드백 반영
      
-## 📑 Documents (프로젝트 문서)
+## 📑 Documents
 
 프로젝트 기획 과정과 팀 운영 규칙에 대한 상세 문서는 아래에서 확인하실 수 있습니다.
 
