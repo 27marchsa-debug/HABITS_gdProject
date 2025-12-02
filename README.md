@@ -126,3 +126,11 @@ HABITS
 - [ ] **Phase 3: 고도화 (Optimization)**
     - [ ] LLM 프롬프트 엔지니어링 최적화
     - [ ] 베타 테스트 및 사용자 피드백 반영
+     
+## 📑 Documents (프로젝트 문서)
+
+프로젝트 기획 과정과 팀 운영 규칙에 대한 상세 문서는 아래에서 확인하실 수 있습니다.
+
+- **[💡 Ideation & Brainstorming](./docs/IDEATION.md)**: 초기 아이디어 스케치 및 해결하고자 하는 문제 정의
+- **[📝 Project Scenario & Specs](./docs/SCENARIO.md)**: 사용자 페르소나 시나리오 및 상세 기능 명세
+- **[⚖️ Team Ground Rules](./docs/GROUND_RULES.md)**: 팀 커뮤니케이션 규칙 및 협업 가이드라인
