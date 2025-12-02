@@ -46,13 +46,13 @@ npx react-native run-android # 또는 run-ios
 
 ```mermaid
 graph TD
-    User((User)) -->|Input: Diary & Schedule| Client[Mobile App \n React Native]
-    Client -->|API Request| Server[Backend Server \n FastAPI]
+    User((User)) -->|Input: Diary & Schedule| Client[Mobile App - React Native]
+    Client -->|API Request| Server[Backend Server - FastAPI]
     
     subgraph "AI Core Engine"
         Server -->|Text| KoELECTRA[Emotion Analysis Model]
         KoELECTRA -->|Emotion Label| Server
-        Server -->|Context Data| LLM[Generative AI \n Feedback Loop]
+        Server -->|Context Data| LLM[Generative AI - Feedback Loop]
         Server -->|User Tags| Recombee[Recommendation Engine]
     end
     
